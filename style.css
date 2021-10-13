@@ -1,0 +1,20 @@
+*{
+    font-family: Arial;
+}
+
+#header-top{
+    display: flex;
+    background-color: black;
+}
+
+#sony-logo{
+    height: 20px;
+    color: black;
+}
+
+
+nav{
+    font: helvetica;
+    display: ;
+
+}
