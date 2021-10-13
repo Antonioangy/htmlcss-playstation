@@ -17,28 +17,186 @@
             </div>
         </div>
         <!-- inizio barra navigazione -->
-        <nav>
+
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
             <div class="container-fluid">
-                <div class="row">
-                    <div class="col-xs-12 col-md-6 col-lg-6">
-                        <img src="./img/play_logo.svg" alt="play-logo">
-                    </div>
-                </div>
+                <img src="./img/play_logo.svg" alt="play-logo">
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Giochi
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Hardware
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Servizi
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Novit&agrave;
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Fai acquisti
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Supporto
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                <form class="d-flex">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          My Playstation
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                        <li>
+                            <button class="btn ms-btn ms-bg-black bg-dark text-white">Accedi</button>
+                        </li>
+                        <li>
+                            <img class="lente"src="img/lens.svg" alt="lente-ricerca">
+                        </li>
+                </form>
+              </div>
             </div>
-        </nav>
+          </nav>
+
         <!-- fine barra navigazione -->
         <!-- inizio jumbo -->
-        <div id="jumbo">
-            <div class="container-fluid font-white">
-                <div class="row">
-                    <div class="col-12 col-lg-4 pb-5">
-                        <img src="./img/ps-5-logo.png" class="img-fluid" alt="gioco-ps5">
-                        <div>I giochi che desideri</div>
-                        <p>I giochi che desideri</p>
+        <div id="sponsored-game">
+            <div class="container" id="sponsored-game-container">
+                <div id="name-description">
+                    <div class="row row-cols-sm-1 row-cols-lg-3">
+                        <div class="col">
+                            <img id="sponsored-logo-game" src="img/returnal-hero-banner-logo.png" alt="returnal logo">
+                        </div>
+                    </div>
+            
+                    <h1 class="text-white">Rompi il cerchio</h1>
+            
+                    <div class=" row-cols-md-1 row-cols-lg-4">
+                        <div class="col">
+                            <p class="text-white">
+                                Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriler fantascientifico, disponibile in esclusiva su PS5.
+                            </p>
+                        </div>
+                    </div>
+            
+                    <div class="row">
+                        <div class="col">
+                            <button type="button" class="btn btn-link text-white bg-warning">Acquista ora</button>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+        <!-- inizio giochi -->
+        <div id="games">
+            <div class="container">
+                <div class="row row-cols-2 row-cols-sm-3 row-cols-lg-6">
+                    <div class="col ">
+                        <div class="game-img img-border">
+                            <img src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="game-img img-border">
+                            <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="game-img img-border">
+                            <img src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="game-img img-border">
+                            <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="game-img img-border">
+                            <img src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="game-img img-border">
+                            <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </header>
+    <!-- fine giochi -->
+    <!-- inizio presentazione playstation 5-->
+    <main>
+        <section id="playstation-5">
+            <div class="container">
+                <div>
+                    <p class="text-center text-info fs-5 text">PLAY HAS NO LIMITS</p>
+                    <p class="text-center fs-2 text ">Ecco la PlayStation 5</p>
+                    <p class="text-center">Tuffati in nuove possibilit&agrave; di gioco completamente inaspettate</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -21,3 +21,58 @@ nav{
     height: 100px;
     background-color: red;
 }
+
+.btn {   
+    background-color: black; 
+    border-style: solid 3px; 
+
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px;
+}
+
+.lente{
+    height: 35px;
+}
+
+/* inizio jumbo */
+
+#sponsored-game{
+    background-image: url(img/jumbo-bg.png);
+    height: 675px;
+}
+
+#sponsored-game-container {
+    height: 100%;
+    position: relative;   
+} 
+
+#sponsored-logo-game {
+    width: 300px;
+    height: 50px;
+}
+
+#name-description {
+    width: 100%;
+    position: absolute;
+    left: 5px;
+    bottom: 100px;  
+}
+/* games */
+
+.game-img {
+    margin: 20px 5px;
+    
+}
+
+#games img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+#games .img-border {
+    border-radius: 10px;
+    padding: 5px;
+}
+
