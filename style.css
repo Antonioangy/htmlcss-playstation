@@ -16,9 +16,9 @@
 
 /* inizio nav  */
 nav{
-    font: helvetica;
     position: fixed;
-    height: 100px;
+    font: helvetica;
+    height: 50px;
     background-color: red;
 }
 
