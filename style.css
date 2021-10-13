@@ -40,6 +40,8 @@ nav{
 
 #sponsored-game{
     background-image: url(img/jumbo-bg.png);
+    background-position: center;
+    background-size: cover;
     height: 675px;
 }
 
