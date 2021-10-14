@@ -37,11 +37,14 @@ nav{
 
 /* inizio jumbo */
 
-#sponsored-game{
-    background-image: url(img/jumbo-bg.png);
+.background {
     background-position: center;
     background-size: cover;
-    height: 675px;
+}
+
+#sponsored-game{
+    background-image: url(img/jumbo-bg.png);
+    height: 800px;
 }
 
 #sponsored-game-container {
@@ -91,5 +94,6 @@ nav{
 /* it takes two */  
 #sponsored-game2 {
     background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+    height: 800px;
 }
 
