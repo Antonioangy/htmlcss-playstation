@@ -16,7 +16,6 @@
 
 /* inizio nav  */
 nav{
-    position: fixed;
     font: helvetica;
     height: 50px;
     background-color: red;
@@ -78,3 +77,13 @@ nav{
     padding: 5px;
 }
 
+/* ps5 */
+.bottone-blu{
+    width: 200px;
+}
+
+#testocentrato{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
