@@ -121,7 +121,9 @@ nav{
     background-color: #171A2C;
     
 }
-
+.play-now-logo{
+    height: 100px;
+}
 /* footer  */
 footer{
     background-color: #00439C;
