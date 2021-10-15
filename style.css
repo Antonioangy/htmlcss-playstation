@@ -100,6 +100,10 @@ nav{
 #sponsored-logo-game2{
     height: 200px;
 }
+/* sconti */
+#sconti{
+    
+}
 
 /* playstation plus */
 #playstation-plus{
@@ -109,17 +113,36 @@ nav{
     background-color: #D9DADC;
 }
 .play-plus-logo{
-    margin-top: 100px;
     height: 100px;
 }
 
 /* playstation now */
 #playstation-now {
-    margin-top: 100px;
     background-color: #171A2C;
     
 }
-.play-now-logo{
-    height: 100px;
+
+/* footer  */
+footer{
+    background-color: #00439C;
 }
 
+#footer-logo{
+    margin:20px ;
+}
+    
+#assistente-online .box-sh:hover {
+    box-shadow: 0 0 2px 2px #ffff;
+}
+#logo-sony-interactive{
+    width: 150px;
+}
+footer li{
+    margin: 10px;
+}
+.space-top{
+    padding-top: 50px;
+}
+.space-bottom{
+    padding-bottom: 50px;
+}
