@@ -108,3 +108,18 @@ nav{
 .grigio{
     background-color: #D9DADC;
 }
+.play-plus-logo{
+    margin-top: 100px;
+    height: 100px;
+}
+
+/* playstation now */
+#playstation-now {
+    margin-top: 100px;
+    background-color: #171A2C;
+    
+}
+.play-now-logo{
+    height: 100px;
+}
+
